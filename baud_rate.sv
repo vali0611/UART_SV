@@ -8,7 +8,7 @@ module baud_rate#(
     output logic tick_baud
   );
   logic [WIDTH-1:0] counter;
-  always_ff@(posedge clk or negedge rst)
+  always_ff@(posedge clk or negedge rst_n)
   begin
     if(!rst_n)
     begin
@@ -16,9 +16,6 @@ module baud_rate#(
       tick_baud <= 1'b0;
     end
     else
-    begin
-      tick_baud <= 1'b0;
-    end
     if(counter == divizor-1)
     begin
       counter <= '0;
@@ -27,7 +24,7 @@ module baud_rate#(
     else
     begin
       counter <= counter+1;
-      tick_baud <='0;
+      tick_baud <= 1'b0;
     end
   end
 endmodule

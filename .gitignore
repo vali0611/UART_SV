@@ -1,0 +1,24 @@
+# Simulation artifacts
+work/
+transcript
+vsim.wlf
+*.qdb
+*.qpg
+*.qtl
+*_info
+*_vmake
+
+# Common simulation tool files
+*.vcd
+*.wlf
+*.log
+*.do
+*.mti
+*.mpf
+*.tmp
+
+# Build artifacts
+*.o
+*.exe
+*.so
+*.a
