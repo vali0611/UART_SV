@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/balea/OneDrive/Desktop/UART/UART_SV
+vbaud_rate
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1757941919
+!i10b 1
+!s100 H;YLH]<U340gjP5UA`?7B0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IiV<4oKRcRBf8==9Pg4K[93
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1757941914
+8baud_rate.sv
+Fbaud_rate.sv
+!i122 7
+L0 1 30
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1757941919.000000
+!s107 transmitter.sv|top_uart.sv|top_tb.sv|receiver.sv|baud_rate.sv|
+Z7 !s90 baud_rate.sv|receiver.sv|top_tb.sv|top_uart.sv|transmitter.sv|
+!i113 1
+Z8 tCvgOpt 0
+vreceiver
+R1
+R2
+!i10b 1
+!s100 LzEH_Zn5=OzZ`E4BAHB002
+R3
+I[UGB3?[eCB6imiW2i<@2I1
+R4
+S1
+R0
+w1757940150
+8receiver.sv
+Freceiver.sv
+!i122 7
+L0 1 139
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 transmitter.sv|top_uart.sv|top_tb.sv|receiver.sv|baud_rate.sv|
+R7
+!i113 1
+R8
+vtop_tb
+R1
+R2
+!i10b 1
+!s100 Igi;PJlA_ffnnj<G5VEZ_1
+R3
+IW01Z5KhdEM@dMhmY7`Sz51
+R4
+S1
+R0
+w1757941450
+8top_tb.sv
+Ftop_tb.sv
+!i122 7
+L0 1 80
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+vtop_uart
+R1
+R2
+!i10b 1
+!s100 Xm]QI7T1b^R=SU]aIFb@^3
+R3
+IddnBkc@fhNf@KjBTDfoYL2
+R4
+S1
+R0
+w1757939504
+8top_uart.sv
+Ftop_uart.sv
+!i122 7
+L0 1 57
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8
+vtransmitter
+R1
+R2
+!i10b 1
+!s100 GEJcLniTOJE@in7N8HXe53
+R3
+IUm7SzK2FSU4BkW8edZ`D_1
+R4
+S1
+R0
+w1757936298
+8transmitter.sv
+Ftransmitter.sv
+!i122 7
+L0 1 123
+R5
+r1
+!s85 0
+31
+R6
+R9
+R7
+!i113 1
+R8

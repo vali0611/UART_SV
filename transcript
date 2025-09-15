@@ -1,0 +1,15 @@
+# vsim top_tb 
+# Start time: 16:12:10 on Sep 15,2025
+# Loading sv_std.std
+# Loading work.top_tb
+# Loading work.top_uart
+# Loading work.baud_rate
+# Loading work.transmitter
+# Loading work.receiver
+add wave *
+run 1000ns
+# ** Note: $stop    : top_tb.sv(77)
+#    Time: 1820 ps  Iteration: 0  Instance: /top_tb
+# Break in Module top_tb at top_tb.sv line 77
+# End time: 16:53:29 on Sep 15,2025, Elapsed time: 0:41:19
+# Errors: 0, Warnings: 0
